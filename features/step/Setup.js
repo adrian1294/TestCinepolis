@@ -17,7 +17,7 @@ module.exports = function() {
         this.Then(/^we set the place "([^"]*)"$/,function(place){
             browser.selectByVisibleText('#cmbComplejos', place);
         });
-        this.Given(/^we're in Cinepolis Cartelera San Pedro$/, function () {
-            browser.url(page.default.getUrl2());
-            });
+        //this.Given(/^we're in Cinepolis Cartelera San Pedro$/, function () {
+        //    browser.url(page.default.getUrl2());
+        //    });
 }
