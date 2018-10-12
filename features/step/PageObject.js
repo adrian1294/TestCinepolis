@@ -11,9 +11,9 @@ class cinepolisHome{
     getUrl() {
         return this.URL
     }
-    getUrl2() {
-        return this.URL2
-    }
+    //getUrl2() {
+    //    return this.URL2
+    //}
     getCity() {
         return this.inputCity
     }
@@ -21,6 +21,15 @@ class cinepolisHome{
     getPlace() {
         return this.inputPlace
     }
+    
+    // getSchedule(){
+    //     let hour
+    //     switch(hour){
+    //         case 00:
+    //         return ""
+    //         break;
+    //     }
+    // }
 }
 export default new cinepolisHome();
 // export
